@@ -78,10 +78,17 @@ function AddNewProperty() {
             </div>
             <div class="col-auto">
               <label for="autoSizingInput">Bedrooms</label>
+<<<<<<< HEAD
               <input className="form-control" value={bedrooms} onChange={event => setBedrooms(event.target.value)} placeholder="Number of Bedrooms" type="number" min="1" max="9" required></input>
 
               <label for="autoSizingInput">Bathrooms</label>
               <input className="form-control" value={bathrooms} onChange={event => setBathrooms(event.target.value)} placeholder="Number of Bathrooms" type="number" min="1" max="9" required></input>
+=======
+              <input className="form-control" value={bedrooms} onChange={event => setBedrooms(event.target.value)} placeholder="Number of Bedrooms" type="number" min ="1" max="9" required></input>
+
+              <label for="autoSizingInput">Bathrooms</label>
+              <input className="form-control" value={bathrooms} onChange={event => setBathrooms(event.target.value)} placeholder="Number of Bathrooms" type="number"  min ="1" max="9" required></input>
+>>>>>>> 108514eb3fcd35b481e864b349d885c758776ef2
               <label htmlFor="">Has a Garden?</label>
               <select className='form-select' value={garden} onChange={(e) => setGarden(e.target.value)} name="" id="" required>
                 <option value="">Select an Option</option>
